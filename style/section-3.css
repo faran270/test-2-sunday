@@ -1,0 +1,70 @@
+.main{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(245, 234, 234);
+    display: flex;
+    padding-top: 3.125rem;
+    padding-bottom: 6.25rem;
+}
+.main1{
+    display: flex; 
+    flex-direction: column;
+}
+.ima1{
+position: relative;
+margin-left: 7.5rem;
+}
+.ima2{
+    position: absolute;
+    margin-left: 3.125rem;
+    margin-top: 19.375rem;
+}
+.main2{
+    margin-top: 6.25rem;
+    margin-left: 6.25rem;
+}
+.main2 span{
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: rgb(104, 19, 201);
+}
+.main2 h1{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: rgb(46, 9, 9);
+}
+.main2 p{
+    color: rgb(143, 134, 122);
+}
+.main2-1{
+    display: flex;
+    justify-content: space-between;
+}
+.main2-1-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.main2-1-1 p{
+    font-weight: bold;
+    color: black;
+}
+.main2-1-1 span {
+    color: rgb(92, 91, 91);
+    font-size: .9375rem;
+}
+.cv{
+    border-radius: 10px;
+    border: 3px solid blueviolet;
+    color: blueviolet;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-left: 6.25rem;
+    padding: 20px 30px 20px 30px;
+
+}
+.cv:hover{
+    background-color: blueviolet;
+    border: 3px solid rgb(212, 0, 255);
+    color: rgb(255, 255, 255);
+}
